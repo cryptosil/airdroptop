@@ -1,0 +1,28 @@
+{
+  "name": "Airdrop Top",
+  "version": "1.0.0",
+  "description": ".",
+  "main": "index.html",
+  "scripts": {
+    "tw-build": "npx tailwindcss -i ./src/tailwind-input.css -o ./assets/css/tailwind.css --watch",
+    "tw-minify": "npx tailwindcss -o ./assets/css/tailwind.min.css --minify",
+    "tw-prettier": "npm install -D prettier prettier-plugin-tailwindcss"
+  },
+  "keywords": [
+    "crypto-website",
+    "airdrop",
+    "coin",
+    "ethereum",
+    "money",
+    "freelance",
+    "cryptocurrency",
+    "bitcoin"
+  ],
+  "author": "ATS",
+  "license": "MIT",
+  "devDependencies": {
+    "prettier": "^3.3.3",
+    "prettier-plugin-tailwindcss": "^0.6.6",
+    "tailwindcss": "^3.4.12"
+  }
+}
